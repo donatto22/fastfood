@@ -1,0 +1,10 @@
+#footer {
+    background-color: rgb(0, 74, 135);
+    min-height: 400px;
+}
+
+#footer-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: red;
+}

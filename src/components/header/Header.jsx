@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
 
                 <div id="header-burger" data-aos="fade-left" data-aos-duration="2000">
-                    <img src="/burger.png" alt="imagen hamburguesa" />
+                    <img src="/burger.webp" alt="imagen hamburguesa" />
                 </div>
             </div>
         </div>

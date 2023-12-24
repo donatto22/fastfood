@@ -5,7 +5,7 @@ const CategoryCard = ({ aos, seconds, delay, image, categoryName, description })
     return (
         <div id="category-card" data-aos={aos} data-aos-duration={seconds} data-aos-delay={delay}>
             <div id="category-image">
-                <img src={image}/>
+                <img src={image} loading='lazy'/>
             </div>
 
             <div id="category-title">
@@ -24,8 +24,8 @@ const CategoryCards = () => {
         <div id="category-cards">
             <div id="category-container">
                 <CategoryCard aos="fade-right" seconds="1800" delay="400" image='./hamburguesa.webp' categoryName="Hamburguesas" description="Incluye especiales de tres carnes"/>
-                <CategoryCard aos="fade-right" seconds="1400" delay="200" image='./salchipapa.png' categoryName="Salchipapas" description="Hasta con doble queso para más explosión de sabores"/>
-                <CategoryCard aos="fade-right" seconds="1000" image='./pizza.png' categoryName="Pizzas" description="Clásicas y aperitivos"/>
+                <CategoryCard aos="fade-right" seconds="1400" delay="200" image='./salchipapa.webp' categoryName="Salchipapas" description="Hasta con doble queso para más explosión de sabores"/>
+                <CategoryCard aos="fade-right" seconds="1000" image='./pizza.webp' categoryName="Pizzas" description="Clásicas y aperitivos"/>
             </div>
         </div>
     )
