@@ -24,7 +24,7 @@ const TheBest = () => {
                 </div>
 
                 <div id="theBest-chef" data-aos="fade-down" data-aos-duration="1000">
-                    <img src='/chef.webp' loading='lazy' />
+                    <img src='/chef.webp' loading='lazy' alt="chef de restaurante" />
                 </div>
             </div>
         </div>
