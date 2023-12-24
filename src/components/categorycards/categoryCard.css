@@ -1,0 +1,41 @@
+#category-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+#category-container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+}
+
+#category-card {
+    background-color: var(--dark-ocean-blue);
+    width: 240px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#category-title {
+    text-align: center;
+}
+
+#category-card:nth-child(1) #category-image {
+    max-width: 40%;
+}
+
+#category-image {
+    max-width: 50%;
+    height: 70px;
+    margin: 2em auto 1em;
+}
+
+#category-description {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}

@@ -1,0 +1,26 @@
+#tag {
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #060E1C;
+    padding: 10px 20px;
+    align-items: center;
+    width: fit-content;
+}
+
+#tag-icon {
+    transform: scale(1.4);
+    display: flex;
+}
+
+#tag:nth-child(1) #tag-icon {
+    color: rgb(252, 184, 184);
+}
+
+#tag:nth-child(2) #tag-icon {
+    color: rgb(184, 252, 185);
+}
+
+#tag:nth-child(3) #tag-icon {
+    color: rgb(255, 251, 126);
+}

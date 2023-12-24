@@ -1,0 +1,111 @@
+#header-container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#header-content h1 {
+    line-height: 1.4em;
+}
+
+#header-burger {
+    width: 500px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    animation: burger 3s ease-in-out infinite;
+}
+
+#header-button button {
+    background-color: rgb(0, 157, 255);
+    border: 0;
+    padding: .8em 2em;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    animation: button-change-color 10s infinite;
+    transition: box-shadow .2s;
+}
+
+#header-button button:hover {
+    box-shadow: 0px 0px 20px 6px var(--default-black);
+}
+
+#header-burger::before {
+    align-self: center;
+    position: absolute;
+    z-index: -5;
+    content: '';
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
+    box-shadow: 0px 0 200px rgb(0, 157, 255);
+    animation: box-shadow-change-color 10s infinite;
+}
+
+@keyframes burger {
+    0% {
+        top: 0;
+    }
+    
+    50% {
+        top: 20px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes box-shadow-change-color {
+    0% {
+        box-shadow: 0px 0 200px rgb(0, 157, 255);
+    }
+    
+    25% {
+        box-shadow: 0px 0 200px rgb(255, 47, 0);
+    }
+    
+    50% {
+        box-shadow: 0px 0 200px rgb(0, 255, 234);
+    }
+
+    75% {
+        box-shadow: 0px 0 200px rgb(174, 0, 255);
+    }
+
+    100% {
+        box-shadow: 0px 0 200px rgb(0, 157, 255);
+    }
+}
+
+@keyframes button-change-color {
+    0% {
+        background-color: rgb(0, 157, 255);
+        color: var(--default-white);
+    }
+    
+    25% {
+        background-color: rgb(255, 47, 0);
+        color: var(--default-white);
+    }
+    
+    50% {
+        background-color: rgb(0, 255, 234);
+        color: var(--default-black);
+    }
+
+    75% {
+        background-color: rgb(174, 0, 255);
+        color: var(--default-white);
+    }
+
+    100% {
+        background-color: rgb(0, 157, 255);
+        color: var(--default-white);
+    }
+}

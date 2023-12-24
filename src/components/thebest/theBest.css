@@ -1,0 +1,41 @@
+#theBest {
+    background-color: var(--light-color-light2);
+    height: 500px;
+}
+
+#theBestContainer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    gap: 10em;
+}
+
+#theBest-content {
+    padding: 3em 0;
+    width: 50%;
+}
+
+#theBest-content-text {
+    line-height: 1.5;
+}
+
+#theBest-content-text p {
+    line-height: 2;
+}
+
+#theBest-chef {
+    width: 320px;
+    align-self: end;
+}
+
+#theBest-chef img {
+    transform: scaleX(-1);
+}
+
+#theBest-content-tags {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+}
