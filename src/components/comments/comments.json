@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "comment": "El servicio es muy bueno, siempre me trae lo que quiero a la hora que quiero."
+        },
+    
+        {
+            "id": 2,
+            "comment": "Jamás me ha fallado, con mi novio pedimos muchas cosas y siempre viene la comida caliente."
+        },
+    
+        {
+            "id": 3,
+            "comment": "Para mis fiestas llega a tiempo el banquete para la mesa, no me preocupo mucho de la hora porque sé que cumplen."
+        },
+
+        {
+            "id": 4,
+            "comment": "El personal es amable y eficiente, siempre te atienden con una sonrisa."
+        },
+
+        {
+            "id": 5,
+            "comment": "Los precios son muy accesibles, puedes comer bien sin gastar mucho."
+        }
+    ]
+}
