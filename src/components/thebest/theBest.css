@@ -1,6 +1,5 @@
 #theBest {
     background-color: var(--light-color-light2);
-    height: 500px;
 }
 
 #theBestContainer {
@@ -26,6 +25,7 @@
 }
 
 #theBest-chef {
+    padding-top: 4em;
     width: 320px;
     align-self: end;
 }

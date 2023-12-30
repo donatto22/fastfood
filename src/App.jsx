@@ -21,7 +21,7 @@ function App() {
         <CategoryCards/>
         <TheBest/>
 
-        {/* <Footer/> */}
+        <Footer/>
         </>
     )
 }

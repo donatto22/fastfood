@@ -1,10 +1,44 @@
 #footer {
-    background-color: rgb(0, 74, 135);
-    min-height: 400px;
+    background-color: var(--light-color-light2);
 }
 
 #footer-container {
     width: 60%;
     margin: 0 auto;
-    background-color: red;
+    padding: 3em 0;
+    gap: 6em;
+    display: flex;
+}
+
+/* zona de la izq */
+#fc-left {
+    width: 30%;
+}
+
+#fc-title p {
+    line-height: 2;
+}
+
+#fc-socials {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    font-size: 30px;
+    color: var(--default-shadow-gray);
+}
+
+/* zona de la derecha */
+#fc-right {
+    width: 70%;
+    display: flex;
+}
+
+.fc-links-title {
+    font-weight: bold;
+}
+
+.fc-links {
+    text-align: right;
+    flex-grow: 1;
+    flex-basis: 0;
 }
