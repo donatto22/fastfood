@@ -1,5 +1,7 @@
 import * as data from './text.json'
+
 import './mv.css'
+import './mv-responsive.css'
 
 const Mv = () => {
     return (

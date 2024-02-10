@@ -1,0 +1,24 @@
+@media screen and (max-width: 1024px) {
+    #objetivos {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #objetivos {
+        width: 400px;
+    }
+
+    #mision, #vision {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4em;
+    }
+
+    .left, .right {
+        width: 400px;
+    }
+
+    
+}

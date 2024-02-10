@@ -4,11 +4,10 @@
 
 #theBestContainer {
     display: flex;
-    justify-content: center;
     height: 100%;
-    width: 60%;
+    width: 900px;
     margin: 0 auto;
-    gap: 4em;
+    justify-content: space-between;
 }
 
 #theBest-content {

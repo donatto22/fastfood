@@ -32,3 +32,7 @@
         left: -100%;
     }
 }
+
+.separator {
+    padding-bottom: 3em;
+}

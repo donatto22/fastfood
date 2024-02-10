@@ -1,6 +1,6 @@
 #objetivos {
     padding-top: 4em;
-    width: 1000px;
+    width: 900px;
     margin: 0 auto 3em;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,6 @@
 
 #mision, #vision {
     display: flex;
-    width: 100%;
     gap: 5em;
 }
 

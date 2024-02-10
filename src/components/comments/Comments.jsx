@@ -21,6 +21,8 @@ const Comments = () => {
                     ))
                 }
             </div>
+
+            <div className="separator"></div>
         </div>
     )
 }
