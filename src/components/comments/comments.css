@@ -1,4 +1,5 @@
 #comments {
+    width: 100vw;
     position: relative;
     padding-bottom: 5em;
 }
@@ -12,7 +13,7 @@
     position: absolute;
     display: flex;
     gap: 2em;
-    animation: infiniteComments infinite linear 70s;
+    animation: infiniteComments infinite linear 48s;
     pointer-events: none;
     overflow-x: hidden;
 }
@@ -32,6 +33,6 @@
     }
 
     100% {
-        left: -100%;
+        left: -150%;
     }
 }

@@ -1,14 +1,12 @@
 #menu {
     position: sticky;
     z-index: 5;
-    margin: 2em 0;
+    margin: 2em auto;
+    padding: 10px 0;
     top: 2em;
     overflow: hidden;
     border-radius: 20px;
     width: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    height: 60px;
     display: flex;
     background-color: var(--dark-ocean-blue);
 }
