@@ -13,5 +13,27 @@
 }
 
 @media screen and (max-width: 768px) {
+    #theBestContainer {
+        width: 400px;
+        display: block;
+    }
 
+    #theBest-content {
+        width: 100%;
+    }
+
+    #theBest-chef {
+        display: none;
+    }
+
+    #tag {
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #theBestContainer {
+        width: 270px;
+        display: block;
+    }
 }

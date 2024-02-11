@@ -9,7 +9,7 @@ const Comments = () => {
     return (
         <div id="comments">
             <div id="comments-title">
-                <h1>Porque el público lo dice!</h1>
+                <div>Porque el público lo dice!</div>
             </div>
 
             <div className="comments-content">

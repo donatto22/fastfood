@@ -5,7 +5,19 @@
 
 #comments-title {
     text-align: center;
-    padding: 2em 0;
+    padding: 2em;
+}
+
+#comments-title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 320px) {
+    #comments-title {
+        font-size: 24px;
+    }
 }
 
 /* la caja que contiene todos los comentarios */
