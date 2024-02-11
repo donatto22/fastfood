@@ -1,5 +1,6 @@
 import Tag from './Tag'
 import './theBest.css'
+import './theBest-responsive.css'
 
 import { CiHeart } from "react-icons/ci"
 import { CiDeliveryTruck } from "react-icons/ci"

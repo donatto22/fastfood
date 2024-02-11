@@ -1,38 +1,43 @@
 #comments {
     width: 100vw;
     position: relative;
-    padding-bottom: 5em;
 }
 
 #comments-title {
     text-align: center;
-    padding: 3em 0 2em;
+    padding: 2em 0;
 }
 
+/* la caja que contiene todos los comentarios */
 .comments-content {
-    position: absolute;
     display: flex;
+    justify-content: center;
     gap: 2em;
-    animation: infiniteComments infinite linear 48s;
-    pointer-events: none;
-    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+/* Scroll */
+/* la barra completa */
+.comments-content::-webkit-scrollbar-track {
+    background-color: var(--light-ocean-blue);
+}
+
+.comments-content::-webkit-scrollbar {
+    height: 14px;
+}
+
+/* el scroll */
+.comments-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--discord-blue);
 }
 
 .comment {
-    width: 340px;
+    min-width: 340px;
+    max-width: 340px;
     background-color: rgb(31, 38, 59);
     line-height: 1.5;
     padding: 1em 2em;
     border-radius: 8px;
     font-style: italic;
-}
-
-@keyframes infiniteComments {
-    0% {
-        left: 100%;
-    }
-
-    100% {
-        left: -150%;
-    }
 }
