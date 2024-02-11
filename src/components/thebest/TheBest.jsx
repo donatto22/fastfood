@@ -4,7 +4,7 @@ import './theBest.css'
 import { CiHeart } from "react-icons/ci"
 import { CiDeliveryTruck } from "react-icons/ci"
 import { CiStickyNote } from "react-icons/ci"
-import Mv from '../misionvision/mv'
+import Mv from '../misionvision/Mv'
 
 const TheBest = () => {
     return (

@@ -3,16 +3,15 @@
 }
 
 #footer-container {
-    width: 60%;
+    width: 900px;
     margin: 0 auto;
     padding: 0 0 2em;
-    gap: 6em;
     display: flex;
 }
 
 /* zona de la izq */
 #fc-left {
-    width: 30%;
+    width: 400px;
 }
 
 #fc-title p {
@@ -29,7 +28,7 @@
 
 /* zona de la derecha */
 #fc-right {
-    width: 70%;
+    width: 100%;
     display: flex;
 }
 

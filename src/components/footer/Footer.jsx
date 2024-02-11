@@ -1,4 +1,5 @@
 import './footer.css'
+import './footer-responsive.css'
 
 import { TiSocialFacebook } from "react-icons/ti"
 import { TiSocialGooglePlus } from "react-icons/ti"

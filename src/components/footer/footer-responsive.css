@@ -1,0 +1,18 @@
+@media screen and (max-width: 1024px) {
+    #footer-container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer-container {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+    } 
+
+    .fc-links {
+        text-align: left;
+    }
+}
