@@ -1,5 +1,6 @@
 #comments {
     position: relative;
+    padding-bottom: 5em;
 }
 
 #comments-title {
@@ -12,6 +13,8 @@
     display: flex;
     gap: 2em;
     animation: infiniteComments infinite linear 70s;
+    pointer-events: none;
+    overflow-x: hidden;
 }
 
 .comment {
@@ -31,8 +34,4 @@
     100% {
         left: -100%;
     }
-}
-
-.separator {
-    padding-bottom: 3em;
 }
