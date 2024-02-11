@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+    #category-container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #category-container {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #category-container {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    #category-card {
+        flex-direction: row;
+        width: 100%;
+    }
+}

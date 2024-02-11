@@ -1,9 +1,10 @@
 import './categoryCard.css'
+import './categoryCard-responsive.css'
 
 // eslint-disable-next-line react/prop-types
 const CategoryCard = ({ imageAlt, aos, seconds, delay, image, categoryName, description }) => {
     return (
-        <div id="category-card" data-aos={aos} data-aos-duration={seconds} data-aos-delay={delay}>
+        <div id="category-card" data-aos={aos} data-aos-duration={seconds} data-aos-delay={delay} data-aos-once='true'>
             <div id="category-image">
                 <img src={image} loading='lazy' alt={imageAlt}/>
             </div>

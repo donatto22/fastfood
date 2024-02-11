@@ -4,12 +4,16 @@
     justify-content: center;
     margin: 2em 0;
 }
+
+/* el contenedor de las cards */
 #category-container {
     display: flex;
+    justify-content: center;
     width: 1000px;
-    justify-content: space-evenly;
+    gap: 3em;
 }
 
+/* el card de la categoria */
 #category-card {
     background-color: var(--dark-ocean-blue);
     width: 240px;

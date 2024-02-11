@@ -1,10 +1,11 @@
 import './menu.css'
+import './menu-responsive.css'
 
 const Menu = () => {
     return (
         <div id="menu" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
             <div id="menu-left">
-                <div id="lockerglogo">
+                <div id="logo">
                     <img src="/lockerglogo.png" alt="" />
                 </div>
                 FastFood
