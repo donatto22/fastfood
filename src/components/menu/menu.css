@@ -1,3 +1,7 @@
+#burger-menu {
+    display: none;
+}
+
 /* la barra completa de menu */
 #menu {
     position: sticky;
@@ -8,6 +12,7 @@
     border-radius: 20px;
     width: 600px;
     display: flex;
+    align-items: center;
     background-color: var(--dark-ocean-blue);
 }
 

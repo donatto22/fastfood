@@ -5,5 +5,39 @@
 }
 
 @media screen and (max-width: 520px) {
-    
+    #menu {
+        width: 300px;
+        top: 0;
+    }
+
+    #menu-left #logo + div {
+        display: none;
+    }
+
+    #menu-right {
+        flex-direction: column;
+        position: absolute;
+        right: -10px;
+        bottom: -150px;
+        align-items: end;
+        border-radius: 10px;
+        gap: 1em;
+        background-color: var(--dark-ocean-blue);
+        padding: 1em;
+        display: flex;
+    }
+
+    #burger-menu {
+        display: flex;
+        position: absolute;
+        right: -4px;
+        padding: 4px 6px;
+        margin-right: 1.2em;
+        font-size: 24px;
+    }
+
+    #burger-menu:hover {
+        background-color: var(--paypal);
+        border-radius: 4px;
+    }
 }
