@@ -17,7 +17,38 @@
     }
 
     #category-card {
+        padding: 0 1em;
+        box-sizing: border-box;
         flex-direction: row;
+        gap: .2em;
         width: 100%;
+        align-items: center;
+    }
+
+    #category-content {
+    }
+
+    #category-image {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #category-card:nth-child(1) #category-image {
+        width: 60px;
+    }
+
+    #category-card:nth-child(2) #category-image {
+        width: 120px;
+    }
+
+    #category-card:nth-child(3) #category-image {
+        width: 60px;
+    }
+
+    #category-card:nth-child(3) #category-content {
+        width: 300px;
     }
 }

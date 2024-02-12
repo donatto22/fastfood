@@ -9,12 +9,14 @@ const CategoryCard = ({ imageAlt, aos, seconds, delay, image, categoryName, desc
                 <img src={image} loading='lazy' alt={imageAlt}/>
             </div>
 
-            <div id="category-title">
-                <h3>{categoryName}</h3>
-            </div>
+            <div id="category-content">
+                <div id="category-title">
+                    <h3>{categoryName}</h3>
+                </div>
 
-            <div id="category-description">
-                <p>{description}</p>
+                <div id="category-description">
+                    <p>{description}</p>
+                </div>
             </div>
         </div>
     )
