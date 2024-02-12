@@ -7,7 +7,7 @@
 @media screen and (max-width: 520px) {
     #menu {
         width: 300px;
-        top: 0;
+        top: 2em;
     }
 
     #menu-left #logo + div {
@@ -24,7 +24,6 @@
         gap: 1em;
         background-color: var(--dark-ocean-blue);
         padding: 1em;
-        display: flex;
     }
 
     #burger-menu {

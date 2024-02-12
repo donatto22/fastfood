@@ -16,3 +16,20 @@
         text-align: left;
     }
 }
+
+@media screen and (max-width: 425px) {
+    #footer {
+        width: 100%;
+    }
+
+    #footer-container, #fc-left, #fc-right {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #fc-right {
+        flex-direction: column;
+        gap: 2em;
+    }
+}
