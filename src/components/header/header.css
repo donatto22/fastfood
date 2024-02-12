@@ -6,8 +6,20 @@
     margin-bottom: 2em;
 }
 
-#header-content h1 {
-    line-height: 1.4em;
+#header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#title-header {
+    line-height: 1.5;
+    font-size: 2.1rem;
+    font-weight: bolder;
+}
+
+.strong-text {
+    text-shadow: 10px 4px 20px rgb(80, 188, 255), -10px -4px 20px rgb(80, 188, 255);
 }
 
 #header-burger {

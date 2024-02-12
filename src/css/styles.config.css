@@ -100,7 +100,7 @@ body {
     background-color: var(--light-ocean-blue);
     color: var(--default-white);
     font-family: 'Montserrat';
-    min-height: 200vh;
+    min-height: 100dvh;
     overflow-x: hidden;
 }
 
